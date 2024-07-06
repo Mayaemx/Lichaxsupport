@@ -64,22 +64,6 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="◯", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [
-            InlineKeyboardButton(
-
-                text="ᴜᴘᴅᴀᴛᴇ",
-
-                url=f"t.me/{OWNER_USERNAME}",
-
-            ),
-            InlineKeyboardButton(
-
-                text="sᴜᴘᴘᴏʀᴛ",
-
-                url=f"{SUPPORT_CHAT}",
-
-            ),
-        ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -92,22 +76,6 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="☊", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="◯", callback_data=f"ADMIN Stop|{chat_id}"),
-        ],
-        [
-            InlineKeyboardButton(
-
-                text="ᴜᴘᴅᴀᴛᴇ",
-
-                url=f"t.me/{OWNER_USERNAME}",
-
-            ),
-            InlineKeyboardButton(
-
-                text="sᴜᴘᴘᴏʀᴛ",
-
-                url=f"{SUPPORT_CHAT}",
-
-            ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
