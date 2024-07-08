@@ -65,7 +65,7 @@ async def search_(app: app, msg: Message):
     split = msg.text.split(None, 1)
     if len(split) == 1:
         return await msg.reply_text("⬤ ɢɪᴠᴇ ǫᴜᴇʀʏ ᴛᴏ sᴇᴀʀᴄʜ.")
-    to_del = await msg.reply_text("🔍")
+    to_del = await msg.reply_text("🧪")
     query = split[1]
     try:
         result = await gsearch.async_search(query)
@@ -134,7 +134,7 @@ async def stack_search_(app: app, msg: Message):
     split = msg.text.split(None, 1)
     if len(split) == 1:
         return await msg.reply_text("⬤ ɢɪᴠᴇ ǫᴜᴇʀʏ ᴛᴏ sᴇᴀʀᴄʜ.")
-    to_del = await msg.reply_text("🔍")
+    to_del = await msg.reply_text("🧪")
     query = split[1]
     try:
         result = await stsearch.async_search(query)
