@@ -51,13 +51,13 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("roy_editx")
-                await self.one.join_chat("choti_bachii")
+                await self.one.join_chat("phoenixXsupport")
+                await self.one.join_chat("emxesmemes")
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "❖ Assistant Started")
+                await self.one.send_message(config.LOGGER_ID, "ℓ𝚒𝚌𝚑𝚊 ✗ 𐌀𝚜𝚒𝚜~① ꜱᴛᴀʀᴛᴇᴅ")
             except:
                 LOGGER(__name__).error(
                     "❖ Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
@@ -72,13 +72,13 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("roy_editx")
-                await self.one.join_chat("choti_bachii")
+                await self.two.join_chat("phoenixXsupport")
+                await self.one.join_chat("emxesmemes")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "❖ Assistant Started")
+                await self.two.send_message(config.LOGGER_ID, "ℓ𝚒𝚌𝚑𝚊 ✗ 𐌀𝚜𝚒𝚜~② ꜱᴛᴀʀᴛᴇᴅ")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
