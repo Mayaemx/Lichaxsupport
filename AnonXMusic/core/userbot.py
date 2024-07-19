@@ -93,13 +93,13 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("roy_editx")
-                await self.one.join_chat("choti_bachii")
+                await self.three.join_chat("phoenixXsupport")
+                await self.one.join_chat("emxesmemes")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "❖ Assistant Started")
+                await self.three.send_message(config.LOGGER_ID, "ℓ𝚒𝚌𝚑𝚊 ✗ 𐌀𝚜𝚒𝚜~③ ꜱᴛᴀʀᴛᴇᴅ")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
